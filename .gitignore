@@ -1,0 +1,101 @@
+# -----------------------------------
+# Compiled Object files, Static and Shared libs
+# -----------------------------------
+*.o
+*.obj
+*.so
+*.a
+*.out
+*.dll
+*.dylib
+*.exe
+
+# -----------------------------------
+# Executables and binaries
+# -----------------------------------
+a.out
+*.out
+*.app
+*.elf
+
+# -----------------------------------
+# Debug, logs, and temporary files
+# -----------------------------------
+*.log
+*.tmp
+*.swp
+*.swo
+*.bak
+*.old
+*.save
+*.core
+core
+vgcore.*
+
+# -----------------------------------
+# Build and cache directories
+# -----------------------------------
+/build/
+/bin/
+/lib/
+/dist/
+/Debug/
+/Release/
+/CMakeFiles/
+/cmake-build-*/
+
+# -----------------------------------
+# CMake-generated files
+# -----------------------------------
+CMakeCache.txt
+CTestTestfile.cmake
+Makefile
+cmake_install.cmake
+install_manifest.txt
+compile_commands.json
+
+# -----------------------------------
+# IDE and Editor Configs
+# -----------------------------------
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# CLion / JetBrains
+.idea/
+
+# Xcode
+*.xcworkspace/
+*.xcodeproj/
+DerivedData/
+
+# Vim / Emacs
+*~
+*.swp
+*.swo
+.#*
+
+# -----------------------------------
+# macOS & System Files
+# -----------------------------------
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# -----------------------------------
+# Windows junk files
+# -----------------------------------
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# -----------------------------------
+# Test artifacts
+# -----------------------------------
+*.gcda
+*.gcno
+*.gcov
+coverage/
+
